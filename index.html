@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <section class="section">
+    <div class="tables">
+    <table class="table sortable" id="myTable">
+        <tr class="head">
+            <th>Row no</th>
+            <th>Name</th>
+            <th>location</th>
+            <th>CGPA</th>
+            <th>Action</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Sunil sharma</td>
+            <td>Mumbai</td>
+            <td>8.5</td>
+            <td><button class="buttons" onclick="editRow(this)">Edit</button> <button class="buttons" onclick="deleteRow(this)">Delete</button></td>
+        </tr>
+    </table>
+    </div>
+    <div>
+        <button class="buttons" onclick="addRow()">Add Row</button>
+    </div>
+</section>
+
+   
+    <script src="scripts.js"></script>
+</body>
+</html>

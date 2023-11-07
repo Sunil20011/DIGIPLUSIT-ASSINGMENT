@@ -1,0 +1,37 @@
+*{
+
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10rem;
+
+}
+.section{
+    display: flex;
+    flex-direction: column;
+}
+.tables{
+    margin-bottom: 20px;
+    width: 1000px;
+            
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border-radius: 10%;
+}
+.buttons{
+    padding: 10px;
+    border-radius: 10px;
+}
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: cyan;
+}
